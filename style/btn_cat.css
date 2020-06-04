@@ -60,3 +60,63 @@ svg:hover {
   fill: #FF7B7B;
   transition: all 1s ease-out;
 }
+
+
+#btn_cat {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF7B7B;
+  height: 100vh;
+  margin-top: -2px;
+}
+
+#cat_on {
+  position: absolute;
+  height: 38vh;
+  top: -98vh;
+  display: none;
+  z-index: 2;
+}
+
+#btn_white {
+  position: absolute;
+  margin: auto;
+  height: 46vh;
+  top: 50vh;
+}
+
+#btn_white:hover {
+  filter: drop-shadow(0px 0px 40px #FFFFFF);
+}
+
+#btn_black {
+  position: absolute;
+  margin: auto;
+  height: 46vh;
+  top: 50vh;
+  display: none;
+}
+
+#btn_black:hover {
+  filter: drop-shadow(0px 0px 40px #000000);
+}
+
+@keyframes aniCat {
+  0% {
+    transform: translate(0,0vh);
+    }
+  100% {
+    transform: translate(0,123vh);
+    }
+}
+
+@keyframes opacityCat {
+0% {
+  transform: translate(0,123vh);
+  }
+100% {
+  transform: translate(0,0vh);
+  }
+}
