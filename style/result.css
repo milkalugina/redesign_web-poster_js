@@ -1,0 +1,163 @@
+@import "index.css";
+
+@font-face {
+  font-family: 'Bitum regular';
+  src: url('../fonts/bitum-regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nolde regular';
+  src: url('../fonts/nolde-regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nolde outline';
+  src: url('../fonts/nolde-outline.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  overflow: hidden;
+}
+
+h1 {
+  z-index: -1;
+  position: absolute;
+  font-family: 'Nolde regular';
+  font-size: 300px;
+  color: white;
+  line-height: 98%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+/* p {
+  position: absolute;
+  right: 120px;
+  bottom: 120px;
+  cursor: pointer;
+}
+
+a svg {
+  height: 100%;
+  cursor: pointer;
+}
+
+p:hover {
+  border: 2px;
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+
+svg:hover {
+  fill: #FF7B7B;
+  transition: all 1s ease-out;
+} */
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rect:hover {
+  background-color: #FF7B7B;
+}
+
+.rect:active {
+  filter: drop-shadow(0px 0px 30px #FF7B7B);
+}
+
+.rect_1,
+.rect_2,
+.rect_3 {
+  z-index: 5;
+  background-color: white;
+  height: 25vh;
+  cursor: pointer;
+}
+
+.rect_1 {
+  width: 40vw;
+  margin-top: 63px;
+  margin-right: 10px;
+}
+
+.rect_2 {
+  width: 22vw;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+
+.rect_3 {
+  width: 19vw;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+
+.sketches {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sketch {
+  z-index: 4;
+  position: absolute;
+  width: 17vw;
+  cursor: pointer;
+}
+
+.sketch_1:hover,
+.sketch_2:hover,
+.sketch_3:hover,
+.sketch_4:hover,
+.sketch_5:hover,
+.sketch_6:hover {
+  filter: drop-shadow(0px 0px 30px #FF7B7B);
+}
+
+.sketch_1 {
+  width: 20vw;
+  top: 25px;
+  right: 340px;
+}
+
+.sketch_2 {
+  top: 40px;
+  right: 80px;
+}
+
+.sketch_3 {
+  top: 300px;
+  right: 80px;
+}
+
+.sketch_4 {
+  top: 350px;
+  right: 20px;
+  transform: rotate(20deg);
+}
+
+.sketch_5 {
+  width: 14vw;
+  bottom: 50px;
+  right: 100px;
+  transform: rotate(20deg);
+}
+
+.sketch_6 {
+  bottom: 40px;
+  right: -80px;
+}
