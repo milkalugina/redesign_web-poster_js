@@ -161,3 +161,205 @@ section {
   bottom: 40px;
   right: -80px;
 }
+
+
+#sketch_1-01 {
+  position: absolute;
+  width: 17vw;
+  top: 20vh;
+  left: 40vw;
+  transform: rotate(20deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_1-02 {
+  position: absolute;
+  width: 14vw;
+  top: 10vh;
+  left: 20vw;
+  transform: rotate(-50deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_1-03 {
+  position: absolute;
+  width: 14vw;
+  top: 40vh;
+  left: 25vw;
+  transform: rotate(70deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_2-01 {
+  position: absolute;
+  width: 14vw;
+  top: 80vh;
+  left: 24vw;
+  transform: rotate(90deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_2-02 {
+  position: absolute;
+  width: 14vw;
+  top: 40vh;
+  left: 10vw;
+  transform: rotate(10deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_2-03 {
+  position: absolute;
+  width: 14vw;
+  top: 60vh;
+  left: 40vw;
+  transform: rotate(70deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_3-01 {
+  position: absolute;
+  width: 14vw;
+  top: 10vh;
+  left: 5vw;
+  transform: rotate(20deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_3-02 {
+  position: absolute;
+  width: 14vw;
+  top: 70vh;
+  left: 10vw;
+  transform: rotate(70deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_3-03 {
+  position: absolute;
+  width: 14vw;
+  top: 60vh;
+  left: 65vw;
+  transform: rotate(50deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_4-01 {
+  position: absolute;
+  width: 14vw;
+  top: 5vh;
+  left: 35vw;
+  transform: rotate(30deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_4-02 {
+  position: absolute;
+  width: 14vw;
+  top: 50vh;
+  left: 2vw;
+  transform: rotate(-40deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_4-03 {
+  position: absolute;
+  width: 14vw;
+  top: 70vh;
+  left: 50vw;
+  transform: rotate(50deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_5-01 {
+  position: absolute;
+  width: 14vw;
+  top: 40vh;
+  left: 55vw;
+  transform: rotate(30deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_5-02 {
+  position: absolute;
+  width: 14vw;
+  top: 20vh;
+  left: 2vw;
+  transform: rotate(-50deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_5-03 {
+  position: absolute;
+  width: 14vw;
+  top: 60vh;
+  left: 25vw;
+  transform: rotate(80deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_6-01 {
+  position: absolute;
+  width: 14vw;
+  top: 40vh;
+  left: 40vw;
+  transform: rotate(30deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_6-02 {
+  position: absolute;
+  width: 14vw;
+  top: -1vh;
+  left: 15vw;
+  transform: rotate(40deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_6-03 {
+  position: absolute;
+  width: 14vw;
+  top: 70vh;
+  left: 1vw;
+  transform: rotate(20deg);
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
+#sketch_1-01:hover,
+#sketch_1-02:hover,
+#sketch_1-03:hover,
+#sketch_2-01:hover,
+#sketch_2-02:hover,
+#sketch_2-03:hover,
+#sketch_3-01:hover,
+#sketch_3-02:hover,
+#sketch_3-03:hover,
+#sketch_4-01:hover,
+#sketch_4-02:hover,
+#sketch_4-03:hover,
+#sketch_5-01:hover,
+#sketch_5-02:hover,
+#sketch_5-03:hover,
+#sketch_6-01:hover,
+#sketch_6-02:hover,
+#sketch_6-03:hover {
+  filter: drop-shadow(0px 0px 30px #FFFFFF);
+}
