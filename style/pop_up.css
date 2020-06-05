@@ -126,3 +126,13 @@ svg:hover {
 .white.change {
   fill: white;
 }
+
+.black_pop_up.change {
+  transition: all 1s ease-out;
+  transform: rotate(360deg);
+}
+
+.white_pop_up.change {
+  transition: all 1s ease-out;
+  transform: rotate(360deg);
+}

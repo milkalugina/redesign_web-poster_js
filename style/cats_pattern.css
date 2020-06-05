@@ -33,9 +33,10 @@ body.click {
 }
 
 section {
-  margin-top: -20vh;
-  height: 100vh;
+  margin-top: -1vh;
+  height: 105vh;
   width: 110vw;
+  margin-left: -2vw;
 }
 
 section svg {
@@ -45,16 +46,25 @@ section svg {
 .cats_svg {
   cursor: pointer;
   fill: black;
+  height: 20vh;
 }
 
 .cats_svg:hover {
-  -webkit-filter: drop-shadow(0px 0px 40px #000000);
-  filter: drop-shadow(0px 0px 40px #000000);
+  -webkit-filter: drop-shadow(0px 0px 10px #FFFFFF);
+  filter: drop-shadow(0px 0px 10px #FFFFFF);
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
 }
 
 .cats_svg.hover {
   fill: white;
-  height: 30vh;
+  height: 20vh;
+  -webkit-animation-name: shake;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 }
 
 p {
@@ -73,7 +83,16 @@ p:hover {
   transition: all 1s ease-out;
 }
 
-/* svg:hover {
-  fill: #FF7B7B;
-  transition: all 1s ease-out;
-} */
+@-webkit-keyframes shake {
+0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
