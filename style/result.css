@@ -37,30 +37,34 @@ h1 {
   line-height: 98%;
   margin-top: 30px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
-/* p {
+.arrow {
+  z-index: 100;
   position: absolute;
-  right: 120px;
-  bottom: 120px;
+  right: 5px;
+  top: 150px;
   cursor: pointer;
 }
 
 a svg {
   height: 100%;
   cursor: pointer;
+  transform: rotate(90deg);
+  fill: #FF7B7B;
 }
 
 p:hover {
   border: 2px;
-  transform: rotate(360deg);
+  transform: rotate(90deg);
   transition: all 1s ease-out;
 }
 
 svg:hover {
   fill: #FF7B7B;
   transition: all 1s ease-out;
-} */
+}
 
 section {
   position: relative;
@@ -181,6 +185,7 @@ section {
   transform: rotate(-50deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_1-03 {
@@ -191,6 +196,7 @@ section {
   transform: rotate(70deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_2-01 {
@@ -201,6 +207,7 @@ section {
   transform: rotate(90deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_2-02 {
@@ -211,6 +218,7 @@ section {
   transform: rotate(10deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_2-03 {
@@ -221,6 +229,7 @@ section {
   transform: rotate(70deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_3-01 {
@@ -231,6 +240,7 @@ section {
   transform: rotate(20deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_3-02 {
@@ -241,6 +251,7 @@ section {
   transform: rotate(70deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_3-03 {
@@ -251,6 +262,7 @@ section {
   transform: rotate(50deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_4-01 {
@@ -261,6 +273,7 @@ section {
   transform: rotate(30deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_4-02 {
@@ -271,6 +284,7 @@ section {
   transform: rotate(-40deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_4-03 {
@@ -281,6 +295,7 @@ section {
   transform: rotate(50deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_5-01 {
@@ -291,6 +306,7 @@ section {
   transform: rotate(30deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_5-02 {
@@ -301,6 +317,7 @@ section {
   transform: rotate(-50deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_5-03 {
@@ -311,6 +328,7 @@ section {
   transform: rotate(80deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_6-01 {
@@ -321,6 +339,7 @@ section {
   transform: rotate(30deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_6-02 {
@@ -331,6 +350,7 @@ section {
   transform: rotate(40deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_6-03 {
@@ -341,6 +361,7 @@ section {
   transform: rotate(20deg);
   opacity: 0%;
   transition: all 1s ease-out;
+  cursor: pointer;
 }
 
 #sketch_1-01:hover,
@@ -362,4 +383,22 @@ section {
 #sketch_6-02:hover,
 #sketch_6-03:hover {
   filter: drop-shadow(0px 0px 30px #FFFFFF);
+  cursor: pointer;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
