@@ -39,25 +39,21 @@ h1 {
 }
 
 p {
+
   position: absolute;
   right: 120px;
   bottom: 120px;
   cursor: pointer;
 }
 
-a svg {
+p a svg {
+  color: #FF7B7B;
   height: 100%;
-  cursor: pointer;
+  fill: pointer;
 }
 
 p:hover {
-  border: 2px;
-  transform: rotate(360deg);
-  transition: all 1s ease-out;
-}
-
-svg:hover {
-  fill: #FF7B7B;
+  transform: translateX(10px);
   transition: all 1s ease-out;
 }
 
@@ -72,7 +68,7 @@ section {
 }
 
 .falling_blocks:hover {
-  filter: drop-shadow(0px 0px 40px #FF7B7B);
+  transform: translateX(-15px);
 }
 
 .falling_blocks_01 {

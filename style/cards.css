@@ -60,11 +60,11 @@ svg:hover {
   transition: all 1s ease-out;
 }
 
-.arrow:hover {
-  border: 2px;
-  transform: rotate(360deg);
+p:hover {
+  transform: translateX(10px);
   transition: all 1s ease-out;
 }
+
 
 #cards {
   position: relative;
@@ -82,18 +82,6 @@ svg:hover {
   overflow-x: hidden;
   margin-top: -5px;
 }
-/*
-h1 {
-  font-family: 'Nolde regular';
-  font-size: 100px;
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  z-index: 4;
-  color: white;
-  padding: 40vh 43vw;
-} */
 
 .card {
   cursor: pointer;
@@ -106,7 +94,4 @@ h1 {
 
 .card:hover {
   filter: grayscale(100%);
-  /* filter: sepia(90%); */
-  /* filter: brightness(0.4); */
-  /* filter: blur(5px); */
 }

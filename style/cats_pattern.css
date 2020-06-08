@@ -50,8 +50,7 @@ section svg {
 }
 
 .cats_svg:hover {
-  -webkit-filter: drop-shadow(0px 0px 10px #FFFFFF);
-  filter: drop-shadow(0px 0px 10px #FFFFFF);
+  opacity: 80%;
   cursor: pointer;
   transform: rotate(360deg);
   transition: all 1s ease-out;
@@ -78,8 +77,7 @@ svg {
 }
 
 p:hover {
-  border: 2px;
-  transform: rotate(360deg);
+  transform: translateX(10px);
   transition: all 1s ease-out;
 }
 
@@ -95,4 +93,114 @@ p:hover {
 80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
 90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+@media screen and (min-width: 1681px)  and (max-width: 1920px) {
+  .cats_svg {
+    height: 20vh;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+  .cats_svg {
+    height: 20vh;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+  p {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  p {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  p {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  p {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .cats_svg,
+  .cats_svg.hover {
+    height: 16vh;
+  }
+
+
+  p {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .cats_svg,
+  .cats_svg.hover {
+    height: 18vh;
+  }
+
+  p {
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+  }
+
+  svg {
+    height: 4vh;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .cats_svg,
+  .cats_svg.hover {
+    height: 14.5vh;
+  }
+
+  p {
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+  }
+
+  svg {
+    height: 4vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .cats_svg,
+  .cats_svg.hover {
+    height: 17vh;
+  }
+
+  p {
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+  }
+
+  svg {
+    height: 4vh;
+  }
 }

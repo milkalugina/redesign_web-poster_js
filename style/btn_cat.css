@@ -41,16 +41,9 @@ a svg {
 }
 
 p:hover {
-  border: 2px;
-  transform: rotate(360deg);
+  transform: translateX(10px);
   transition: all 1s ease-out;
 }
-
-svg:hover {
-  fill: #FF7B7B;
-  transition: all 1s ease-out;
-}
-
 
 #btn_cat {
   position: relative;

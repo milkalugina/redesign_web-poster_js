@@ -32,9 +32,9 @@ h1 {
   z-index: -1;
   position: absolute;
   font-family: 'Nolde regular';
-  font-size: 300px;
+  font-size: 31vh;
   color: white;
-  line-height: 98%;
+  line-height: 31.5vh;
   margin-top: 30px;
   margin-left: 20px;
   cursor: pointer;
@@ -92,19 +92,19 @@ section {
 
 .rect_1 {
   width: 40vw;
-  margin-top: 63px;
+  margin-top: 6.5vh;
   margin-right: 10px;
 }
 
 .rect_2 {
   width: 22vw;
-  margin-top: 60px;
+  margin-top: 6vh;
   margin-right: 10px;
 }
 
 .rect_3 {
   width: 19vw;
-  margin-top: 60px;
+  margin-top: 6.6vh;
   margin-right: 10px;
 }
 

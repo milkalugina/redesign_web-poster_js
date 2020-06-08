@@ -22,11 +22,12 @@
 }
 
 .advice {
+  position: absolute;
   font-family: 'Bitum light';
-  padding-top: 50px;
-  padding-left: 30px;
+  right: 60px;
+  bottom: 60px;
   z-index: 100;
-  font-size: 17px;
+  font-size: 50px;
   color: black;
 }
 
@@ -72,7 +73,7 @@
 }
 
 #exhibition_name p:hover {
-  transform: rotate(360deg);
+  transform: translateX(10px);
   transition: all 1s ease-out;
 }
 
