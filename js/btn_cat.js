@@ -8,6 +8,12 @@ document.getElementById('figure_3').style.opacity = `100%`;
 document.getElementById('figure_4').style.opacity = `100%`;
 document.getElementById('figure_5').style.opacity = `100%`;
 document.getElementById('figure_6').style.opacity = `100%`;
+document.getElementById('figure_1--1').style.opacity = `100%`;
+document.getElementById('figure_2--2').style.opacity = `100%`;
+document.getElementById('figure_3--3').style.opacity = `100%`;
+document.getElementById('figure_4--4').style.opacity = `100%`;
+document.getElementById('figure_5--5').style.opacity = `100%`;
+document.getElementById('figure_6--6').style.opacity = `100%`;
  }
 
 document.getElementById('btn_black').onclick = function() {
@@ -19,6 +25,12 @@ document.getElementById('figure_3').style.opacity = `0%`;
 document.getElementById('figure_4').style.opacity = `0%`;
 document.getElementById('figure_5').style.opacity = `0%`;
 document.getElementById('figure_6').style.opacity = `0%`;
+document.getElementById('figure_1--1').style.opacity = `0%`;
+document.getElementById('figure_2--2').style.opacity = `0%`;
+document.getElementById('figure_3--3').style.opacity = `0%`;
+document.getElementById('figure_4--4').style.opacity = `0%`;
+document.getElementById('figure_5--5').style.opacity = `0%`;
+document.getElementById('figure_6--6').style.opacity = `0%`;
 }
 
 $(document).ready(function() {

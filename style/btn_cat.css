@@ -28,7 +28,7 @@ body {
   overflow: hidden;
 }
 
-p {
+.arrow {
   position: absolute;
   right: 120px;
   bottom: 120px;
@@ -40,7 +40,7 @@ a svg {
   cursor: pointer;
 }
 
-p:hover {
+.arrow:hover {
   transform: translateX(10px);
   transition: all 1s ease-out;
 }
@@ -108,8 +108,14 @@ p:hover {
   }
 }
 
-div {
+#figure_1--1 {
+  font-family: 'Bitum regular';
+  font-size: 15px;
   position: absolute;
+  top: 10vh;
+  left: 20vw;
+  opacity: 0%;
+  transition: all 1s ease-out;
 }
 
 #figure_1 {
@@ -120,8 +126,19 @@ div {
   opacity: 0%;
   transition: all 1s ease-out;
 }
+
 #figure_1.change {
   animation: shake 4s ease-in 4 forwards;
+}
+
+#figure_2--2 {
+  font-family: 'Bitum regular';
+  font-size: 15px;
+  position: absolute;
+  top: 33vh;
+  left: 6vw;
+  opacity: 0%;
+  transition: all 1s ease-out;
 }
 
 #figure_2 {
@@ -137,6 +154,16 @@ div {
   animation: gggg 4s ease-in 3 backwards;
 }
 
+#figure_3--3 {
+  font-family: 'Bitum regular';
+  font-size: 15px;
+  position: absolute;
+  bottom: 35vh;
+  left: 18vw;
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
 #figure_3 {
   position: absolute;
   width: 15vw;
@@ -148,6 +175,16 @@ div {
 
 #figure_3.change {
   animation: rubberBand 4s ease-in 2 backwards;
+}
+
+#figure_4--4 {
+  font-family: 'Bitum regular';
+  font-size: 15px;
+  position: absolute;
+  top: 10vh;
+  right: 20vw;
+  opacity: 0%;
+  transition: all 1s ease-out;
 }
 
 #figure_4 {
@@ -163,6 +200,16 @@ div {
   animation: wobble 4s ease-in 1 backwards;
 }
 
+#figure_5--5 {
+  font-family: 'Bitum regular';
+  font-size: 15px;
+  position: absolute;
+  top: 36vh;
+  right: 6vw;
+  opacity: 0%;
+  transition: all 1s ease-out;
+}
+
 #figure_5 {
   position: absolute;
   width: 15vw;
@@ -174,6 +221,16 @@ div {
 
 #figure_5.change {
   animation: flip 4s ease-in 1 backwards;
+}
+
+#figure_6--6 {
+  font-family: 'Bitum regular';
+  font-size: 15px;
+  position: absolute;
+  bottom: 37vh;
+  right: 22vw;
+  opacity: 0%;
+  transition: all 1s ease-out;
 }
 
 #figure_6 {
@@ -267,5 +324,91 @@ div {
   100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
+  }
+}
+
+
+
+@media screen and (min-width: 1681px)  and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+  }
+
+  .arrow svg {
+    height: 4vh;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+  }
+
+  .arrow svg {
+    height: 4vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+  }
+
+  .arrow svg {
+    height: 4vh;
   }
 }

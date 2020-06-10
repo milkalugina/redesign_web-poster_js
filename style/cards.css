@@ -95,3 +95,123 @@ p:hover {
 .card:hover {
   filter: grayscale(100%);
 }
+
+
+
+@media screen and (min-width: 1681px)  and (max-width: 1920px) {
+  .card {
+    height: 55vh;
+  }
+
+  .advice {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+
+  .arrow a svg {
+    height: 6vh;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .arrow {
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+  }
+
+  .arrow a svg {
+    height: 6vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .card {
+    height: 35vh;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 100px;
+    bottom: 70px;
+  }
+
+  .arrow a svg {
+    height: 5vh;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .card {
+    height: 35vh;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+  }
+
+  .arrow a svg {
+    height: 4vh;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .card {
+    height: 35vh;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+  }
+
+  .arrow a svg {
+    height: 4vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .card {
+    height: 35vh;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .arrow a svg {
+    height: 4vh;
+  }
+}
