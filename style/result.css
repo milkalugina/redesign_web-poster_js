@@ -32,7 +32,7 @@ h1 {
   z-index: -1;
   position: absolute;
   font-family: 'Nolde regular';
-  font-size: 31vh;
+  font-size: 17.5vw;
   color: white;
   line-height: 31.5vh;
   margin-top: 30px;
@@ -46,23 +46,17 @@ h1 {
   right: 5px;
   top: 150px;
   cursor: pointer;
+  filter: drop-shadow(0px 0px 20px #000000);
 }
 
 a svg {
-  height: 100%;
   cursor: pointer;
-  transform: rotate(90deg);
   fill: #FF7B7B;
+  transform: rotate(-90deg);
 }
 
-p:hover {
-  border: 2px;
-  transform: rotate(90deg);
-  transition: all 1s ease-out;
-}
-
-svg:hover {
-  fill: #FF7B7B;
+.arrow:hover {
+  transform: translateY(-10px);
   transition: all 1s ease-out;
 }
 
@@ -113,7 +107,7 @@ section {
   top: 0px;
   right: 0px;
   height: 100vh;
-  width: 100vw;
+  width: 50vw;
 }
 
 .sketch {
@@ -134,36 +128,36 @@ section {
 
 .sketch_1 {
   width: 20vw;
-  top: 25px;
-  right: 340px;
+  top: 2vh;
+  right: 20vw;
 }
 
 .sketch_2 {
-  top: 40px;
-  right: 80px;
+  top: 4vh;
+  right: 5vw;
 }
 
 .sketch_3 {
-  top: 300px;
-  right: 80px;
+  top: 34vh;
+  right: 6vw;
 }
 
 .sketch_4 {
-  top: 350px;
-  right: 20px;
+  top: 37vh;
+  right: 1vw;
   transform: rotate(20deg);
 }
 
 .sketch_5 {
   width: 14vw;
-  bottom: 50px;
-  right: 100px;
+  bottom: 6vh;
+  right: 6vw;
   transform: rotate(20deg);
 }
 
 .sketch_6 {
-  bottom: 40px;
-  right: -80px;
+  bottom: 6vh;
+  right: -4vw;
 }
 
 
@@ -415,7 +409,8 @@ section {
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1440px) {
-  p {
+
+  .arrow {
     position: absolute;
     right: 120px;
     bottom: 100px;
@@ -423,7 +418,7 @@ section {
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1366px) {
-  p {
+  .arrow {
     position: absolute;
     right: 120px;
     bottom: 100px;
@@ -431,7 +426,7 @@ section {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-  p {
+  .arrow {
     position: absolute;
     right: 120px;
     bottom: 100px;
@@ -439,7 +434,7 @@ section {
 }
 
 @media screen and (min-width: 901px) and (max-width: 1024px) {
-  p {
+  .arrow {
     position: absolute;
     right: 120px;
     bottom: 100px;
@@ -447,49 +442,321 @@ section {
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
-
-  p {
+  .arrow {
+    top: 6vh;
     position: absolute;
-    right: 120px;
-    bottom: 100px;
+    right: -7vw;
+  }
+
+  h1 {
+    position: relative;
+    line-height: 100%;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .rect_1, .rect_2, .rect_3 {
+    height: 16vh;
+    width: 90vw;
+    margin: 1vh auto;
+  }
+  .sketches {
+    position: absolute;
+    top: 50vh;
+    right: auto;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .sketch_1 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_2 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_3 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 5vw;
+    top: auto;
+  }
+
+  .sketch_4 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 30vw;
+    top: auto;
+  }
+
+  .sketch_5 {
+    width: 24vw;
+    bottom: 5vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+    transform: rotate(50deg);
+  }
+
+  .sketch_6 {
+    width: 25vw;
+    bottom: 5vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
   }
 }
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
-
-  p {
+  .arrow {
+    top: 6vh;
     position: absolute;
-    right: 30px;
-    bottom: 100px;
+    right: -7vw;
   }
 
-  svg {
+  .arrow svg {
     height: 4vh;
+  }
+
+  h1 {
+    position: relative;
+    line-height: 100%;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .rect_1, .rect_2, .rect_3 {
+    height: 16vh;
+    width: 90vw;
+    margin: 1vh auto;
+  }
+  .sketches {
+    position: absolute;
+    top: 50vh;
+    right: auto;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .sketch_1 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_2 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_3 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 5vw;
+    top: auto;
+  }
+
+  .sketch_4 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 30vw;
+    top: auto;
+  }
+
+  .sketch_5 {
+    width: 24vw;
+    bottom: 5vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+    transform: rotate(50deg);
+  }
+
+  .sketch_6 {
+    width: 25vw;
+    bottom: 5vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
   }
 }
 
 @media screen and (min-width: 376px) and (max-width: 414px) {
-
-  p {
+  .arrow {
+    top: 6vh;
     position: absolute;
-    right: 30px;
-    bottom: 100px;
+    right: -7vw;
   }
 
-  svg {
+  .arrow svg {
     height: 4vh;
+  }
+
+  h1 {
+    position: relative;
+    line-height: 100%;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .rect_1, .rect_2, .rect_3 {
+    height: 16vh;
+    width: 90vw;
+    margin: 1vh auto;
+  }
+  .sketches {
+    position: absolute;
+    top: 50vh;
+    right: auto;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .sketch_1 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_2 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_3 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 5vw;
+    top: auto;
+  }
+
+  .sketch_4 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 30vw;
+    top: auto;
+  }
+
+  .sketch_5 {
+    width: 24vw;
+    bottom: 5vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+    transform: rotate(50deg);
+  }
+
+  .sketch_6 {
+    width: 25vw;
+    bottom: 5vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
-
-  p {
+  .arrow {
+    top: 6vh;
     position: absolute;
-    right: 30px;
-    bottom: 100px;
+    right: -7vw;
   }
 
-  svg {
+  .arrow svg {
     height: 4vh;
+  }
+
+  h1 {
+    position: relative;
+    line-height: 100%;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .rect_1, .rect_2, .rect_3 {
+    height: 16vh;
+    width: 90vw;
+    margin: 1vh auto;
+  }
+  .sketches {
+    position: absolute;
+    top: 50vh;
+    right: auto;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .sketch_1 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_2 {
+    width: 25vw;
+    bottom: 40vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
+  }
+
+  .sketch_3 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 5vw;
+    top: auto;
+  }
+
+  .sketch_4 {
+    width: 25vw;
+    bottom: 22vh;
+    right: 30vw;
+    top: auto;
+  }
+
+  .sketch_5 {
+    width: 24vw;
+    bottom: 5vh;
+    left: 5vw;
+    right: auto;
+    top: auto;
+    transform: rotate(50deg);
+  }
+
+  .sketch_6 {
+    width: 25vw;
+    bottom: 5vh;
+    left: 30vw;
+    right: auto;
+    top: auto;
   }
 }
