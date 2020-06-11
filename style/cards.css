@@ -160,8 +160,8 @@ p:hover {
 
   .arrow {
     position: absolute;
-    right: 100px;
-    bottom: 70px;
+    right: 30px;
+    bottom: 100px;
   }
 
   .arrow a svg {
@@ -176,8 +176,8 @@ p:hover {
 
   .arrow {
     position: absolute;
-    right: 60px;
-    bottom: 40px;
+    right: 30px;
+    bottom: 100px;
   }
 
   .arrow a svg {
@@ -192,8 +192,8 @@ p:hover {
 
   .arrow {
     position: absolute;
-    right: 40px;
-    bottom: 20px;
+    right: 30px;
+    bottom: 100px;
   }
 
   .arrow a svg {
@@ -208,8 +208,8 @@ p:hover {
 
   .arrow {
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 30px;
+    bottom: 100px;
   }
 
   .arrow a svg {

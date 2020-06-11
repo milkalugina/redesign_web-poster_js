@@ -522,7 +522,7 @@ section {
   .arrow {
     top: 6vh;
     position: absolute;
-    right: -7vw;
+    right: -2vw;
   }
 
   .arrow svg {
@@ -620,7 +620,7 @@ section {
   }
 
   .rect_1, .rect_2, .rect_3 {
-    height: 16vh;
+    height: 19vh;
     width: 90vw;
     margin: 1vh auto;
   }
@@ -634,7 +634,7 @@ section {
 
   .sketch_1 {
     width: 25vw;
-    bottom: 40vh;
+    bottom: 47vh;
     left: 5vw;
     right: auto;
     top: auto;
@@ -642,7 +642,7 @@ section {
 
   .sketch_2 {
     width: 25vw;
-    bottom: 40vh;
+    bottom: 47vh;
     left: 30vw;
     right: auto;
     top: auto;
@@ -650,14 +650,14 @@ section {
 
   .sketch_3 {
     width: 25vw;
-    bottom: 22vh;
+    bottom: 25vh;
     right: 5vw;
     top: auto;
   }
 
   .sketch_4 {
     width: 25vw;
-    bottom: 22vh;
+    bottom: 25vh;
     right: 30vw;
     top: auto;
   }
@@ -701,7 +701,7 @@ section {
   }
 
   .rect_1, .rect_2, .rect_3 {
-    height: 16vh;
+    height: 19vh;
     width: 90vw;
     margin: 1vh auto;
   }
@@ -715,7 +715,7 @@ section {
 
   .sketch_1 {
     width: 25vw;
-    bottom: 40vh;
+    bottom: 47vh;
     left: 5vw;
     right: auto;
     top: auto;
@@ -723,7 +723,7 @@ section {
 
   .sketch_2 {
     width: 25vw;
-    bottom: 40vh;
+    bottom: 47vh;
     left: 30vw;
     right: auto;
     top: auto;
@@ -731,14 +731,14 @@ section {
 
   .sketch_3 {
     width: 25vw;
-    bottom: 22vh;
+    bottom: 25vh;
     right: 5vw;
     top: auto;
   }
 
   .sketch_4 {
     width: 25vw;
-    bottom: 22vh;
+    bottom: 25vh;
     right: 30vw;
     top: auto;
   }
