@@ -12,6 +12,9 @@ body {
   width: 100vw;
   background-color: black;
   overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 }
 
 h1 {
@@ -517,7 +520,7 @@ section {
     width: 90vw;
     margin: 1vh auto;
   }
-  
+
   .sketches {
     position: absolute;
     top: 50vh;

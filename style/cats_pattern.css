@@ -5,6 +5,9 @@ body {
   width: 100vw;
   background-color: #FF7B7B;
   overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 }
 
 body.click {
@@ -32,7 +35,7 @@ section svg {
   opacity: 80%;
   cursor: pointer;
   transform: rotate(360deg);
-  transition: all 1s ease-out;
+  transition: all 2s ease-out;
 }
 
 .cats_svg.hover {
