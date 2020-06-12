@@ -74,9 +74,8 @@ for (let i = 0; i < CARDS_NUMBER; i++) {
   newCard.src = `../img/${cards[i]}`
   newCard.classList.add('card')
   newCard.onclick = function(event) {
-    event.target.style.transform =  `translate(${anime.random(-55,55)}vw,${anime.random(-55,55)}vh) rotate(${anime.random(0, 360)}deg)`
-    event.target.style.filter =  `drop-shadow(0px 0px 15px #FF7B7B)`
-
+    event.target.style.transform =  `translate(${anime.random(-55,55)}vw,${anime.random(-55,55)}vh) rotate(${anime.random(0, 360)}deg)`;
+    event.target.style.filter =  `drop-shadow(0px 0px 15px #FF7B7B)`;
   }
   cardsContainer.append(newCard)
 }

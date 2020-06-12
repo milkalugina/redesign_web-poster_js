@@ -1,22 +1,8 @@
-@import "index.css";
-
-@font-face {
-  font-family: 'Bitum regular';
-  src: url('../fonts/bitum-regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import "reset.css";
 
 @font-face {
   font-family: 'Nolde regular';
   src: url('../fonts/nolde-regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nolde outline';
-  src: url('../fonts/nolde-outline.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -159,7 +145,6 @@ section {
   bottom: 6vh;
   right: -4vw;
 }
-
 
 #sketch_1-01 {
   position: absolute;
@@ -397,19 +382,7 @@ section {
   }
 }
 
-
-
-
-@media screen and (min-width: 1681px)  and (max-width: 1920px) {
-
-}
-
-@media screen and (min-width: 1441px) and (max-width: 1680px) {
-
-}
-
 @media screen and (min-width: 1367px) and (max-width: 1440px) {
-
   .arrow {
     position: absolute;
     right: 120px;
@@ -462,6 +435,7 @@ section {
     width: 90vw;
     margin: 1vh auto;
   }
+
   .sketches {
     position: absolute;
     top: 50vh;
@@ -543,6 +517,7 @@ section {
     width: 90vw;
     margin: 1vh auto;
   }
+  
   .sketches {
     position: absolute;
     top: 50vh;

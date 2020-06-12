@@ -14,13 +14,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Nolde outline';
-  src: url('../fonts/nolde-outline.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .advice {
   position: absolute;
   font-family: 'Bitum light';

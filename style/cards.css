@@ -7,20 +7,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Nolde regular';
-  src: url('../fonts/nolde-regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nolde outline';
-  src: url('../fonts/nolde-outline.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .advice {
   position: absolute;
   font-family: 'Bitum light';
@@ -97,8 +83,6 @@ p:hover {
   filter: grayscale(100%);
 }
 
-
-
 @media screen and (min-width: 1681px)  and (max-width: 1920px) {
   .card {
     height: 55vh;
@@ -107,10 +91,6 @@ p:hover {
   .advice {
     font-size: 25px;
   }
-}
-
-@media screen and (min-width: 1441px) and (max-width: 1680px) {
-
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1440px) {

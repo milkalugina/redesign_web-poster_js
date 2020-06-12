@@ -1,4 +1,3 @@
-
 let controller = new ScrollMagic.Controller()
 
 let $catsScroll = document.getElementById('main_cat')

@@ -1,25 +1,4 @@
-@import "index.css";
-
-@font-face {
-  font-family: 'Bitum regular';
-  src: url('../fonts/bitum-regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nolde regular';
-  src: url('../fonts/nolde-regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nolde outline';
-  src: url('../fonts/nolde-outline.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import "reset.css";
 
 body {
   height: 100vh;

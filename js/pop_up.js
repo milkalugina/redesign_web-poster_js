@@ -1,18 +1,18 @@
-
 $(document).ready(function() {
   $(".black").click(function() {
     $(".black").toggleClass("change");
   });
+
   $(".white_pop_up").click(function() {
     $(".black_pop_up").toggleClass("change");
   });
 });
 
-
 $(document).ready(function() {
   $(".white").click(function() {
     $(".white").toggleClass("change");
   });
+  
   $(".black_pop_up").click(function() {
     $(".white_pop_up").toggleClass("change");
   });

@@ -16,7 +16,6 @@ document.getElementById('rect_3').onclick = function() {
   document.getElementById('third_p').style.color = '#FF7B7B';
 }
 
-// sketches
 document.getElementById('sketch_1').onclick = function() {
   document.getElementById('sketch_1-01').style.opacity = '100%';
   document.getElementById('sketch_1-02').style.opacity = '100%';
@@ -58,8 +57,6 @@ document.getElementById('sketch_6').onclick = function() {
   document.getElementById('sketch_6-03').style.opacity = '100%';
   document.getElementById('sketch_6').style.animation = '1s linear 0s normal none infinite rot';
 }
-
-//animations
 
 document.getElementById('sketch_1-01').onclick = function() {
   document.getElementById('sketch_1-01').style.transform =  `translate(${anime.random(-55,55)}vw,${anime.random(-55,55)}vh) rotate(${anime.random(0, 360)}deg)`

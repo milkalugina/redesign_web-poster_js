@@ -1,26 +1,5 @@
 @import "index.css";
 
-@font-face {
-  font-family: 'Bitum regular';
-  src: url('../fonts/bitum-regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nolde regular';
-  src: url('../fonts/nolde-regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nolde outline';
-  src: url('../fonts/nolde-outline.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   overflow: hidden;
   height: 100vh;
@@ -127,7 +106,6 @@ svg:hover {
   margin-left: 20vw;
 }
 
-
 .white.change {
   fill: white;
 }
@@ -230,6 +208,7 @@ svg:hover {
     height: 50vh;
     width: 50vw;
   }
+  
   p {
     position: absolute;
     right: 120px;
